@@ -41,6 +41,9 @@ function Layout({ pageOpts, children }) {
             <div>
               <Link href='/docs/v19/globals'>Globals</Link>
             </div>
+            <div>
+              <Link href='/docs/app'>app</Link>
+            </div>
           </aside>
           <article>
             <MDXProvider
