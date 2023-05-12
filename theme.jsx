@@ -73,6 +73,7 @@ export default function Theme(props) {
   // These are just initial setup for Nextra themes
   const { route } = useRouter()
   const context = globalThis.__nextra_pageContext__[route]
+  console.log('context',context)
   if (!context) throw new Error(`No content found for ${route}.`)
   const { pageOpts, Content } = context
 
